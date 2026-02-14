@@ -1,13 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-b">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>`Planta Vida</title>
+    <title>Planta Vida</title>
 </head>
 <body>
-    
+    <header>
+
     <h1>🌿 Planta Vida</h1>
+    <p>Seu lugar de cuidado diário com o que você ama: sua plantinha.</p>
+    <h2>Seja bem vindo!</h2>
+
+    </header>
+    
+
+    <main>
+
+        <section id="add-plant">
+            <h2>Qual planta você trouxe para cuidar hoje?</h2>
+
+        <div>
+            <label for="plantName">Nome da Planta</label>
+            <input id="plantName" type="text" placeholder="Ex: Samambaia">
+        </div>
+
+        <br />
+
+        <div>
+            <label for="startDate">Desde quando ela está com você?</label>
+            <input id="startDate" type="date">
+        </div>
+
+        <br />
+
+        <button id="addName" type="button">Adicionar ao meu jardim</button>   
+        </section>
+
+
+        <hr /> 
+        
+        <section id="minha-planta">
+            <h2>Minha planta</h2>
+            <p id="plantaSumario">Nenhuma planta foi adicionada ainda</p>
+            <p id="plantaDias"></p>
+        </section>
+
+        <hr />
+
+        <section id="diario">
+            <h2>Diário de cuidados</h2>
+            <p>Registre aqui sua ações com carinho🌱</p>
+
+            <ul>
+
+            </ul>
+        </section>
+        
+
+    </main>
+
+    <footer>
+        <p>Planta Vida - Projeto em construção 🌿</p>
+    </footer>
 
 </body>
 </html>
