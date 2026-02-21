@@ -68,5 +68,24 @@ li:hover, header h2:hover {
     transform: scale(1.05);
 }
 
+.entrar {
+    display: flex;
+}
+
+main {
+    background-color:#F4F0EA;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add-plant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: #DFE69A;
+    flex-direction: column;
+}
+
 
 
