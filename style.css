@@ -92,10 +92,66 @@ main h2 {
 .nome, 
 .minha-planta, 
 .diario, .data  {
-    margin-top: 30px;
+    margin-top: 10px;
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     font-weight: 600px;
+}
+
+#plantName, #startDate {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+.diario {
+    margin-bottom: 300px;
+}
+
+#addName {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background-color: #DFE69A;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+#addName:hover{
+    background-color: #2e241b;
+    color: aliceblue;
+}
+
+.minha-planta p{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.diario{
+        margin-left: 5px;
+        margin-top: 30px;
+}
+
+.diario legend{
+    margin-top: 10px
+}
+
+#nota{
+    margin-top: ;
+    width: 500px;
+    height: 200px;
+}
+
+.diario button{
+    
 }
 
 
