@@ -27,6 +27,8 @@ header {
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    top: 0;
+    left: 0;
 }
 
 header h1 a {
@@ -75,42 +77,44 @@ li:hover, header h2:hover {
     display: flex;
 }
 
-h3 {
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-}
 
 .apresentacao-page {
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 0 20px;
 }
+
 
 .intro {
     font-family: 'Inter', Arial, sans-serif;
     background-color: #DFE69A;
     padding: 1rem 1.5rem;
-    display: inline-block;
+    max-width: 500px;
+    
     
 }
 
 .intro-texto {
     font-size: 20px;
-    
+    margin-top: 3rem;
 }
 
 .imagem img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     margin-left: auto;
-    margin-right: 150px;
-    margin-top: 50px;
+    margin-right: 100px;
+    margin-top: 100px;
 }
 
 
 main {
     background-color:#F4F0EA;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
