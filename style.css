@@ -23,8 +23,10 @@ header {
     font-style: normal;
     font-weight: bold;
     padding: 12px 20px;
-    position: relative;
-    
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 header h1 a {
@@ -73,6 +75,40 @@ li:hover, header h2:hover {
     display: flex;
 }
 
+h3 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.apresentacao-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.intro {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #DFE69A;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    
+}
+
+.intro-texto {
+    font-size: 20px;
+    
+}
+
+.imagem img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+
 main {
     background-color:#F4F0EA;
     display: flex;
@@ -82,6 +118,7 @@ main {
 
 main h2 {
     display: inline-block;
+    margin-left: 5px;
     font-family: "Quicksand", sans-serif;
     margin-top: 100px;
     background-color: #DFE69A;
@@ -93,9 +130,10 @@ main h2 {
 .minha-planta, 
 .diario, .data  {
     margin-top: 10px;
+    margin-left: 5px;
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: 600;
 }
 
 #plantName, #startDate {
@@ -111,6 +149,7 @@ input:focus::placeholder {
 
 .diario {
     margin-bottom: 300px;
+    margin-left: 5px;
 }
 
 #addName {
@@ -141,17 +180,43 @@ input:focus::placeholder {
 }
 
 .diario legend{
-    margin-top: 10px
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 #nota{
-    margin-top: ;
+    margin-left: 5px;
     width: 500px;
     height: 200px;
 }
 
 .diario button{
-    
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-color: #DFE69A;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 5px;
+    display: block;
+}
+
+.diario button:hover {
+    background-color: #2e241b;
+    color: aliceblue;
+}
+
+footer {
+    height: 50px;
+    background-color: #DFE69A;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 
